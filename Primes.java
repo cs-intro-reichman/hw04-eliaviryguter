@@ -40,6 +40,8 @@ public class Primes {
             counter++;
             }
         }
-        System.out.println("There are "+counter+" primes between 2 and "+n+"("+(100*counter)/(n-1)+"% are primes)");
+        int percent = (100 * counter) / n;
+        System.out.println("There are " + counter + " primes between 2 and " + n +
+                   " (" + percent + "% are primes)");
     }
 }
